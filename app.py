@@ -527,3 +527,4 @@ with st.form(key='chat_form'):
     # Render chat history with HTML if it's not empty
     if chat_history_text.strip() != "":
         chat_history.markdown(chat_history_text, unsafe_allow_html=True)
+        # hi
