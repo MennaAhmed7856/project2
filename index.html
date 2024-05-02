@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing Effect</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.typing-effect {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid #e5e2e9;
+
+}
+</style>
+</head>
+<body>
+<div class="typing-effect" id="typing-effect"></div>
+<script src="script.js"></script>
+<script>const text = "This is an example of a typing effect. It gives the illusion of text being typed out gradually.";
+
+  const typingEffect = document.getElementById('typing-effect');
+  
+  let index = 0;
+  
+  function typeText() {
+    if (index < text.length) {
+      typingEffect.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typeText, 50); // Adjust the timeout for typing speed
+    }
+  }
+  
+  typeText();
+  </script>
+</body>
+</html>

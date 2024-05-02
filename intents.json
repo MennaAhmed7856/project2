@@ -1,0 +1,708 @@
+{
+   "intents":[
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Greetings", "Good morning", "Good afternoon", "Good evening"],
+        "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! What brings you here today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "Adios", "Take care"],
+        "responses": ["Goodbye! If you have any more questions, feel free to ask.", "Bye! Have a great day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Thanks a lot", "Appreciate it", "Thank you so much"],
+        "responses": ["You're welcome! If you need assistance, feel free to ask.", "No problem! Let me know if there's anything else I can help with."]
+      },
+      {
+        "tag": "book_search",
+        "patterns": ["Can you recommend a book?", "I'm looking for a book", "Recommend me something to read"],
+        "responses": ["Certainly! What genre are you interested in?", "Sure, I'd be happy to recommend a book. What type of book are you in the mood for?"]
+      },      
+      
+      
+      {
+        "tag": "J.K. Rowling",
+        "patterns": [
+          "Can you tell me about author J.K. Rowling?",
+          "Who is author J.K. Rowling?",
+          "Recommend books by J.K. Rowling"
+        ],
+        "responses": [
+          "J.K. Rowling is a British author best known for writing the Harry Potter series. She has also written novels under the pseudonym Robert Galbraith. For book recommendations by J.K. Rowling, you might enjoy exploring the Harry Potter series, as well as the Cormoran Strike series written under the pseudonym Robert Galbraith."
+        ]
+      },
+      {
+        "tag": "Stephen King",
+        "patterns": [
+          "Can you tell me about author Stephen King?",
+          "Who is author Stephen King?",
+          "Recommend books by Stephen King"
+        ],
+        "responses": [
+          "Stephen King is an American author known for his work in horror, supernatural fiction, suspense, and fantasy genres. He is one of the most prolific and successful authors of the 20th and 21st centuries, with works such as 'The Shining,' 'It,' 'Misery,' and 'The Dark Tower' series. For book recommendations by Stephen King, you might enjoy exploring 'The Shining,' 'It,' 'Misery,' and 'The Dark Tower' series, among others."
+        ]
+      },
+      {
+        "tag": "Agatha Christie",
+        "patterns": [
+          "Can you tell me about author Agatha Christie?",
+          "Who is author Agatha Christie?",
+          "Recommend books by Agatha Christie"
+        ],
+        "responses": [
+          "Agatha Christie was an English writer known for her detective novels and short stories, particularly those featuring detectives Hercule Poirot and Miss Marple. She is best known for works such as 'Murder on the Orient Express,' 'And Then There Were None,' and 'The Murder of Roger Ackroyd.' For book recommendations by Agatha Christie, you might enjoy exploring 'Murder on the Orient Express,' 'And Then There Were None,' 'The Murder of Roger Ackroyd,' and other classic mysteries."
+        ]
+      },
+      {
+        "tag": "Dan Brown",
+        "patterns": [
+          "Can you tell me about author Dan Brown?",
+          "Who is author Dan Brown?",
+          "Recommend books by Dan Brown"
+        ],
+        "responses": [
+          "Dan Brown is an American author known for his bestselling novels that blend history, art, codes, and symbols with thrilling plots. He is best known for works such as 'The Da Vinci Code,' 'Angels & Demons,' and 'Inferno.' For book recommendations by Dan Brown, you might enjoy exploring 'The Da Vinci Code,' 'Angels & Demons,' 'Inferno,' and other novels featuring Robert Langdon."
+        ]
+      },
+      
+      {
+        "tag": "Importance of Books",
+        "patterns": [
+          "Why are books important?",
+          "What is the significance of reading books?",
+          "Can you explain the importance of books?"
+        ],
+        "responses": [
+          "Books are important for several reasons. Firstly, they serve as a repository of knowledge, allowing us to learn about a wide range of subjects and expand our understanding of the world. Secondly, books stimulate our imagination and creativity, transporting us to different places, times, and perspectives. Additionally, reading books can improve our cognitive abilities, including critical thinking, problem-solving, and communication skills. Moreover, books offer a form of entertainment and relaxation, providing an escape from daily stresses. Finally, books have the power to inspire and motivate us, shaping our beliefs, values, and aspirations."
+        ]
+      },
+      {
+      "tag": "Reading Habit",
+      "patterns": [
+        "How often do you read?",
+        "What motivates you to read?",
+        "Any tips for developing a reading habit?"
+      ],
+      "responses": [
+        "Reading regularly is a habit that can be cultivated over time. Set aside dedicated time for reading each day, even if it's just for a few minutes. Find books that genuinely interest you, and keep track of your progress to stay motivated."
+      ]
+    },
+    {
+      "tag": "Reading Environment",
+      "patterns": [
+        "Where do you like to read?",
+        "Do you have any favorite reading spots?"
+      ],
+      "responses": [
+        "Many people enjoy reading in quiet, comfortable environments like their home, a cozy café, or a peaceful park. Finding a spot with good lighting and minimal distractions can enhance the reading experience."
+      ]
+    },
+
+    {
+      "tag": "Book Recommendations",
+      "patterns": [
+        "Can you suggest a good book for beginners?",
+        "What book would you recommend for someone who's new to reading?"
+      ],
+      "responses": [
+        "For beginners, I'd recommend starting with easy-to-read and engaging books from popular genres like mystery, romance, or fantasy. Some good options include 'Harry Potter and the Sorcerer's Stone' by J.K. Rowling, 'To Kill a Mockingbird' by Harper Lee, or 'The Alchemist' by Paulo Coelho."
+      ]
+    },
+    
+  
+    
+    {
+      "tag": "Personal Library",
+      "patterns": [
+        "Do you have tips for organizing a personal library?"
+        
+      ],
+      "responses": [
+        "Organize your books by genre, author, or subject matter, arrange them alphabetically, chronologically, or by size, utilize shelves or containers for storage, and periodically declutter by donating or selling unwanted titles."
+      ]
+    },
+
+    {
+      "tag": "Reading Speed?",
+      "patterns": [
+        "How can I improve my reading speed?"
+        
+      ],
+      "responses": [
+        "Improve your reading speed by practicing regularly, using a guiding pointer, minimizing subvocalization, and employing techniques like skimming and scanning to extract key information quickly."
+      ]
+    },
+    {
+      "tag": "Brief of The Book?",
+      "patterns": [
+        "Can you do a brief of the book?"
+        
+      ],
+      "responses": [
+       "Of course! Could you specify which book you're interested in, or would you like a brief overview of a random book?"
+      ]
+    },
+    {
+      "tag": "Write a Book",
+      "patterns": [
+        "what do I need to write a book?"
+      ],
+      "responses": [
+        "Writing a book can be an exciting and rewarding endeavor!Here's a general checklist of what you might need:<br><br> \n\n1. Idea or Concept: Start with a clear idea or concept for your book. This could be a plot, a character, a theme, or even just a setting that intrigues you. \n\n2. Outline or Plan: Develop an outline or a plan for your book. This can help you organize your thoughts and plot points before you start writing. \n\n3. Writing Tools: Choose the writing tools that work best for you. This could be a word processor like Microsoft Word or Google Docs, or specialized writing software like Scrivener. \n\n4. Time and Commitment: Set aside dedicated time for writing and make a commitment to stick to your writing schedule. \n\n5. Research (if applicable): Depending on the genre and subject matter of your book, you may need to conduct research to ensure accuracy and authenticity. \n\n6. Patience and Perseverance: Writing a book takes time and effort. Be patient with yourself and stay committed to your writing goals, even when the going gets tough. \n\n7. Feedback and Revision: Be open to receiving feedback from beta readers, editors, or writing groups, and be willing to revise and improve your work based on their input. \n\n8. Motivation and Inspiration: Find sources of motivation and inspiration to keep you going, whether it's reading books in your genre, listening to music, or taking walks in nature. \n\n9. Support System: Surround yourself with a supportive network of friends, family, or fellow writers who can encourage you and provide feedback along the way. \n\n10. Publishing Plan (if applicable): If you plan to publish your book, start thinking about your publishing options early on. This could include traditional publishing, self-publishing, or hybrid publishing. \n\nRemember, every writer's journey is unique, so feel free to adapt this checklist to suit your own writing process and preferences. And most importantly, enjoy the creative journey of bringing your book to life!"
+      ]
+    },
+    {
+      "tag": "Types of Category",
+      "patterns": [
+        "can you tell me types of category"
+      ],
+      "responses": [
+        "Certainly! Here's a breakdown of different types of categories, covering various aspects of classification:<br><br> \n\nFiction: This category encompasses imaginative stories that are not based on real events. It includes genres like mystery, romance, science fiction, fantasy, and more. \n\nNon-fiction: Non-fiction books are based on real events, facts, or experiences. This category includes biographies, memoirs, self-help books, history books, and scientific works. \n\nMystery/Thriller: Mystery and thriller novels typically involve suspenseful plots, often revolving around solving a crime or uncovering a secret.\n\nRomance: Romance novels focus on romantic relationships between characters and often have themes of love, passion, and personal growth.\n\nScience Fiction: Science fiction books explore futuristic or speculative concepts, often involving advanced technology, space exploration, and alternative realities.\n\nFantasy: Fantasy books transport readers to imaginary worlds filled with magic, mythical creatures, and epic adventures.\n\nHorror: Horror novels aim to evoke fear and suspense in readers through chilling and supernatural elements, such as ghosts, monsters, and psychological terrors.\n\nHistorical Fiction: Historical fiction books are set in the past and often blend real historical events with fictional characters and plots.\n\nYoung Adult (YA): YA books are targeted at teenage readers and cover a wide range of genres, including romance, fantasy, dystopian fiction, and coming-of-age stories.\n\nChildren's Books: Children's books cater to younger readers and include picture books, early readers, chapter books, and middle-grade novels.\n\nThese categories are among the most well-known and popular in the world of books, with countless famous works and authors contributing to each genre's rich literary heritage."
+      ]
+    },
+     {
+      "tag": "Feel Boring",
+      "patterns": [
+        "can you suggest any book for me I feel boring "
+        
+      ],
+      "responses": [
+       "Of course! What kind of books do you enjoy? Are you looking for something thrilling, thought-provoking, humorous, or perhaps something in a specific genre like science fiction, fantasy, mystery, or non-fiction?"
+      ]
+    },
+
+    {
+      "tag": "Gone Girl",
+      "patterns": [
+        "What are people's opinions about the book 'Gone Girl'?"
+      ],
+      "responses": [
+        "Opinions about 'Gone Girl' by Gillian Flynn vary widely, as is often the case with books that delve into complex and morally ambiguous themes. Here are some common perspectives:<br><br> \n\n Praise for its gripping plot: Many readers praise 'Gone Girl' for its suspenseful and unpredictable storyline. The book is known for its numerous twists and turns, keeping readers on the edge of their seats until the very end.\n\n Fascination with the characters: The characters in 'Gone Girl,' particularly the central couple Amy and Nick Dunne, are often described as complex and morally ambiguous. Some readers find them compelling and enjoy the psychological depth that Flynn brings to their portrayal.\n\n Criticism of its dark themes: 'Gone Girl' deals with themes such as manipulation, deceit, and toxic relationships, which can be unsettling for some readers. Critics argue that the book's portrayal of marriage and gender dynamics may be problematic or even harmful.\n\n Debate over the ending: The ending of 'Gone Girl' is controversial and divisive among readers. Some find it satisfying and thematically fitting, while others feel that it is abrupt or unsatisfactory.\n\n Appreciation for Flynn's writing style: Gillian Flynn's writing style, characterized by its sharp prose and keen psychological insights, is widely praised by many readers. Her ability to craft a compelling narrative and create complex, morally ambiguous characters is often cited as one of the book's strengths. Overall, 'Gone Girl' has generated significant discussion and debate since its publication, with opinions ranging from enthusiastic praise to strong criticism."
+      ]
+    },
+    
+
+    {
+      "tag": "The Hobbit",
+      "patterns": [
+        "Can you brief the hobbit"
+        
+      ],
+      "responses": [
+        "The Hobbit  is a classic fantasy novel written by J.R.R. Tolkien, published in 1937. It follows the journey of Bilbo Baggins, a hobbit who lives a quiet and comfortable life until the wizard Gandalf and a group of dwarves enlist him for a quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug,Throughout the story, Bilbo encounters trolls, goblins, elves, giant spiders, and other fantastical creatures, while also discovering courage and resourcefulness within himself. Along the way, he finds a magical ring that grants him the power of invisibility, which becomes crucial to the success of their quest.The Hobbit is known for its rich world-building, memorable characters, and themes of heroism, friendship, and the lure of adventure. It serves as a prelude to Tolkien's epic (The Lord of the Rings) trilogy, but it stands on its own as a beloved tale of adventure and discovery."
+      ]
+    },
+    {
+      "tag": "The Great Gatsby",
+      "patterns": [
+        "Can you brief the great gatsby"
+      ],
+      "responses": [
+        "The Great Gatsby is a classic American novel published in 1925, set in the roaring 1920s. The story is narrated by Nick Carraway, who moves to Long Island's affluent West Egg and becomes drawn into the glamorous yet tragic world of his enigmatic neighbor, Jay Gatsby. Gatsby is a wealthy and mysterious figure known for his extravagant parties, but Nick soon learns that Gatsby's opulent lifestyle is all in pursuit of his lost love, Daisy Buchanan. Daisy is married to the wealthy and arrogant Tom Buchanan, and Gatsby believes that he can win her back. As Nick becomes entangled in the lives of Gatsby, Daisy, and their social circle, he witnesses the destructive effects of wealth, ambition, and the pursuit of the American Dream. The novel explores themes of love, class, identity, and the illusion of the American Dream during the Jazz Age. The climax of the novel occurs during a fateful confrontation between Gatsby, Tom, and Daisy, leading to tragic consequences. Through Nick's eyes, readers are given a poignant portrayal of the excesses and emptiness of the Jazz Age, as well as the complexities of human desire and aspiration. The Great Gatsby remains a timeless exploration of the American experience and a classic of 20th-century literature."
+      ]
+    },
+    
+
+
+
+
+      {
+         "tag":"Fiction",
+         "patterns":[
+            "Fiction", "Recommend a Fiction book", "Recommend a book in Fiction","Can you suggest another book?"
+         ],
+         "responses":[
+          {
+            "Book":"Warhost of Vastmark",
+            "Author": "Janny Wurts",
+            "Feedback":"Tricked once more by his wily half-brother, Lysaer, Lord of Light, arrives at the tiny harbor town of Merior to find that Arithon's ship yards have been abandoned and meticulously destroyed, and that the Master of Shadow has disappeared as if into thin air. Meanwhile Arithon and the Mad Prophet Dakar are traveling on foot through the treacherous Kelhorn Mountains towards the Vastmark clans, there to raise further support for his cause. But raising a warhost is a costly business. Is it mere coincidence that Princess Talith\u2014Lysaer's beautiful, headstrong wife\u2014is taken captive and held for a vast ransom by a master brigand? The forces of light and shadow circle and feint, drawing ever closer to a huge conflict. And in the background the Fellowship of Seven Sorcerers and the Koriani Enchantresses watch and plan, and wait.",
+        
+            "Published Year":1996,
+            "Rate":5
+         },
+          {
+            "Image": "https://images.gr-assets.com/books/1515589515l/186074.jpg",
+            "Book": "The Name of the Wind",
+            "Author": "Patrick Rothfuss",
+            "Feedback": "This is a fantasy novel that follows the life of Kvothe, a magically gifted young man who grows to be the most notorious wizard his world has ever seen. It's a tale of adventure, magic, and mystery.",
+            "Published Year": 2007,
+            "Rate": 4.55
+          },
+
+          {
+            "Image": "https://images.gr-assets.com/books/1387124618l/9361589.jpg",
+            "Book": "The Night Circus",
+            "Author": "Erin Morgenstern",
+            "Feedback": "This enchanting novel tells the story of a mysterious circus that only opens at nightfall and the magical competition between two young illusionists. It's a tale of love, magic, and wonder.",
+            "Published Year": 2011,
+            "Rate": 4
+          },
+
+            
+            { "Image":"http://books.google.com/books/content?id=_K2fswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+               "Book":"The Song of Rhiannon",
+               "Author":"Evangeline Walton",
+               "Feedback":"A retelling of The Mabinogion in novel form. Manawydon finally unites with Rhiannon - an aspect of the Goddess - but his happiness is shaken by the appearance of the Gray Man, who seeks vengeance against the living and especially against one who would claim the Goddess.",
+               "Published Year":1972,
+               "Rate":4.02
+              
+              
+            },
+            { "Image":"http://books.google.com/books/content?id=FKo2TgANz74C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+               "Book":"Rage of angels",
+               "Author":"Sidney Sheldon",
+               "Feedback":"A memorable, mesmerizing heroine Jennifer -- brilliant, beautiful, an attorney on the way up until the Mafia's schemes win her the hatred of an implacable enemy -- and a love more destructive than hate. A dangerous, dramatic world The Dark Arena of organized crime and flashbulb lit courtrooms where ambitious prosecutors begin their climb to political power.",
+               
+               "Published Year": 1993,
+               "Rate":3.93
+              
+            },
+
+            {"Image":"http://books.google.com/books/content?id=hLH0dtl5NVwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+               "Book":"The Silmarillion",
+               "Author":"J.R.R. Tolkien",
+               "Feedback":"Designed to take fans of The Hobbit and The Lord of the Rings deeper into the myths and legends of Middle-earth The Silmarillion is an account of the Elder Days, of the First Age of Tolkien s world. It is the ancient drama to which the characters in The Lord of the Rings look back, and in whose events some of them such as Elrond and Galadriel took part. The tales of The Silmarillion are set in an age when Morgoth, the first Dark Lord, dwelt in Middle-Earth, and the High Elves made war upon him for the recovery of the Silmarils, the jewels containing the pure light of Valinor. Included in the book are several shorter works. The Ainulindale is a myth of the Creation and in the Valaquenta the nature and powers of each of the gods is described. The Akallabeth recounts the downfall of the great island kingdom of Numenor at the end of the Second Age and Of the Rings of Power tells of the great events at the end of the Third Age, as narrated in The Lord of the Rings. This pivotal work features the revised, corrected text and includes, by way of an introduction, a fascinating letter written by Tolkien in 1951 in which he gives a full explanation of how he conceived the early Ages of Middle-earth.\"",
+             
+               "Published Year":1977,
+               "Rate":3.91
+            },
+
+            {
+               "Image":"http://books.google.com/books/content?id=KQZCPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+               "Book": "Gilead",
+               "Author": "Marilynne Robinson",
+               "Published Year": 2004,
+               "Feedback": "A NOVEL THAT READERS and critics have been eagerly anticipating for over a decade, Gilead is an astonishingly imagined story of remarkable lives. John Ames is a preacher, the son of a preacher and the grandson (both maternal and paternal) of preachers. It’s 1956 in Gilead, Iowa, towards the end of the Reverend Ames’s life, and he is absorbed in recording his family’s story, a legacy for the young son he will never see grow up. Haunted by his grandfather’s presence, John tells of the rift between his grandfather and his father: the elder, an angry visionary who fought for the abolitionist cause, and his son, an ardent pacifist. He is troubled, too, by his prodigal namesake, Jack (John Ames) Boughton, his best friend’s lost son who returns to Gilead searching for forgiveness and redemption. Told in John Ames’s joyous, rambling voice that finds beauty, humour and truth in the smallest of life’s details, Gilead is a song of celebration and acceptance of the best and the worst the world has to offer. At its heart is a tale of the sacred bonds between fathers and sons, pitch-perfect in style and story, set to dazzle critics and readers alike.",
+               "Rate": 3.85
+              
+           },
+          
+            { "Image":" http://books.google.com/books/content?id=3gWlxIFlMEwC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+               "Book":"Taken at the Flood",
+               "Author": "Agatha Christie",
+               "Feedback":"A Few Weeks After Marrying An Attractive Young Widow, Gordon Cloade Is Tragically Killed By A Bomb Blast In The London Blitz. Overnight, The Former Mrs Underhay Finds Herself In Sole Possession Of The Cloade Family Fortune. Shortly Afterwards, Hercule Poirot Receives A Visit From The Dead Man S Sister-In-Law Who Claims She Has Been Warned By Spirits That Mrs Underhay S First Husband Is Still Alive. Poirot Has His Suspicions When He Is Asked To Find A Missing Person Guided Only By The Spirit World. Yet What Mystifies Poirot Most Is The Woman S True Motive For Approaching Him&",
+             
+               "Published Year": 1948,
+               "Rate":3.71
+            },
+
+            
+
+
+            {  "Image":"http://books.google.com/books/content?id=3EDbEHca_k8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api,Depicts",
+               "Book":"The Love of the Last Tycoon",
+               "Author":"F. Scott Fitzgerald ",
+               "Feedback":"Depicts the inner-workings of the Hollywood movie industry and its impact on the fabric of American life.",
+              
+               "Published Year":1941,
+               "Rate":3.65
+            },
+              
+
+
+            {  "Image":"http://books.google.com/books/content?id=-reD1g77BfsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+               "Book":"The Yiddish Policemen's Union",
+               "Author":"Michael Chabon",
+               "Feedback":"For sixty years, Jewish refugees and their descendants have prospered in the Federal District of Sitka, a \"temporary\" safe haven created in the wake of revelations of the Holocaust and the shocking 1948 collapse of the fledgling state of Israel. Proud, grateful, and longing to be American, the Jews of the Sitka District have created their own little world in the Alaskan panhandle, a vibrant, gritty, soulful, and complex frontier city that moves to the music of Yiddish. For sixty years they have been left alone, neglected and half-forgotten in a backwater of history. Now the District is set to revert to Alaskan control, and their dream is coming to an end: once again the tides of history threaten to sweep them up and carry them off into the unknown. But homicide detective Meyer Landsman of the District Police has enough problems without worrying about the upcoming Reversion. His life is a shambles, his marriage a wreck, his career a disaster. He and his half-Tlingit partner, Berko Shemets, can't catch a break in any of their outstanding cases. Landsman's new supervisor is the love of his life\u2014and also his worst nightmare. And in the cheap hotel where he has washed up, someone has just committed a murder\u2014right under Landsman's nose. Out of habit, obligation, and a mysterious sense that it somehow offers him a shot at redeeming himself, Landsman begins to investigate the killing of his neighbor, a former chess prodigy. But when word comes down from on high that the case is to be dropped immediately, Landsman soon finds himself contending with all the powerful forces of faith, obsession, hopefulness, evil, and salvation that are his heritage\u2014and with the unfinished business of his marriage to Bina Gelbfish, the one person who understands his darkest fears. At once a gripping whodunit, a love story, an homage to 1940s noir, and an exploration of the mysteries of exile and redemption, The Yiddish Policemen's Union is a novel only Michael Chabon could have written.",
+              
+               "Published Year":2007,
+               "Rate":3.7
+            }
+         
+          
+          
+          
+         ]
+      
+     
+      
+      
+      },
+      {
+         "tag":"Biography & Autobiography",
+         "patterns":[
+            "Biography & Autobiography", "Recommend a Biography & Autobiography book", "Recommend a book in Biography & Autobiography","Can you suggest another book in Biography & Autobiography ?"
+         ],
+         "responses":[
+           
+            {
+               "Book":"A Year in the Life of William Shakespeare",
+               "Author": "James Shapiro",
+               "Feedback":"1599 was an epochal year for Shakespeare and England Shakespeare wrote four of his most famous plays: Henry the Fifth, Julius Caesar, As You Like It, and, most remarkably, Hamlet; Elizabethans sent off an army to crush an Irish rebellion, weathered an Armada threat from Spain, gambled on a fledgling East India Company, and waited to see who would succeed their aging and childless queen. James Shapiro illuminates both Shakespeare\u2019s staggering achievement and what Elizabethans experienced in the course of 1599, bringing together the news and the intrigue of the times with a wonderful evocation of how Shakespeare worked as an actor, businessman, and playwright. The result is an exceptionally immediate and gripping account of an inspiring moment in history.",
+               "Published Year": 2005,
+               "Rate":4.09
+            },
+            {
+               "Book": "The Real Trial of Oscar Wilde",
+               "Author": "Merlin Holland",
+               "Feedback":"Oscar Wilde had one of literary history's most explosive love affairs with Lord Alfred \"Bosie\" Douglas. In 1895, Bosie's father, the Marquess of Queensberry, delivered a note to the Albemarle Club addressed to \"Oscar Wilde posing as sodomite.\" With Bosie's encouragement, Wilde sued the Marquess for libel. He not only lost but he was tried twice for \"gross indecency\" and sent to prison with two years' hard labor. With this publication of the uncensored trial transcripts, readers can for the first time in more than a century hear Wilde at his most articulate and brilliant. The Real Trial of Oscar Wilde documents an alarmingly swift fall from grace; it is also a supremely moving testament to the right to live, work, and love as one's heart dictates.",
+               "Published Year": 2003,
+               "Rate":4.07
+            },
+            {
+               "Book":"Walt Whitman",
+               "Author":"Justin Kaplan",
+               "Feedback":"Whitman's genius, passions, poetry, and androgynous sensibility entwined to create an exuberant life amid the turbulent American mid-nineteenth century. In vivid detail, Kaplan examines the mysterious selves of the enigmatic man who celebrated the freedom and dignity of the individual and sang the praises of democracy and the brotherhood of man.",
+               "Published Year": 2004,
+               "Rate":3.99
+            },
+            {
+               "Book":"Travels",
+               "Author":"Michael Crichton",
+               "Feedback":"Often I feel I go to some distant region of the world to be reminded of who I really am. When Michael Crichton -- a Harvard-trained physician, bestselling novelist, and successful movie director -- began to feel isolated in his own life, he decided to widen his horizons. He tracked wild animals in the jungles of Rwanda. He climbed Kilimanjaro and Mayan pyramids. He trekked across a landslide in Pakistan. He swam amid sharks in Tahiti. Fueled by a powerful curiosity and the need to see, feel, and hear firsthand and close-up, Michael Crichton has experienced adventures as compelling as those he created in his books and films. These adventures -- both physical and spiritual -- are recorded here in Travels, Crichton's most astonishing and personal work.",
+               "Published Year": 1988,
+               "Rate":3.95
+            }
+           
+         ]
+      },
+
+
+
+
+
+      {
+         "tag": "Mystery & Thriller",
+         "patterns": [
+           "Mystery & Thriller",
+           "Recommend a Mystery & Thriller book",
+           "Recommend a book in Mystery & Thriller",
+           "Can you suggest another Mystery & Thriller book?"
+         ],
+         "responses": [
+           {
+             "Book": "The Girl with the Dragon Tattoo",
+             "Author": "Stieg Larsson",
+             "Feedback": "A gripping thriller that follows investigative journalist Mikael Blomkvist and hacker Lisbeth Salander as they unravel a complex web of corruption, murder, and family secrets.",
+             "Published Year": 2005,
+             "Rate": 4.13
+           },
+           {
+             "Book": "Gone Girl",
+             "Author": "Gillian Flynn",
+             "Feedback": "A psychological thriller",
+             "Published Year": 2012,
+             "Rate": 4.05
+           }
+
+         ]
+      },
+
+      {
+         "tag": "Fantasy",
+         "patterns": [
+           "Fantasy",
+           "Recommend a Fantasy book",
+           "Recommend a book in Fantasy",
+           "Can you suggest another Fantasy book?"
+         ],
+         "responses": [
+           {
+             "Book": "The Name of the Wind",
+             "Author": "Patrick Rothfuss",
+             "Feedback": "An epic fantasy that follows the life of Kvothe, a magically gifted young man, as he grows to become a legendary figure.",
+             "Published Year": 2007,
+             "Rate": 4.55
+           },
+           {
+             "Book": "A Game of Thrones",
+             "Author": "George R.R. Martin",
+             "Feedback": "The first book in the A Song of Ice and Fire series, a gripping tale of political intrigue, war, and dragons.",
+             "Published Year": 1996,
+             "Rate": 4.45
+           },
+           {
+             "Book": "Mistborn: The Final Empire",
+             "Author": "Brandon Sanderson",
+             "Feedback": "The first book in the Mistborn series, featuring a unique magic system and a thrilling heist plot set in a world ruled by a dark lord.",
+             "Published Year": 2006,
+             "Rate": 4.43
+           },
+           {
+             "Book": "Harry Potter and the Sorcerer's Stone",
+             "Author": "J.K. Rowling",
+             "Feedback": "The first book in the beloved Harry Potter series, following the journey of a young wizard as he discovers his magical heritage.",
+             "Published Year": 1997,
+             "Rate": 4.48
+           },
+           {
+             "Book": "The Hobbit",
+             "Author": "J.R.R. Tolkien",
+             "Feedback": "A classic fantasy adventure about a hobbit named Bilbo Baggins who embarks on a quest to reclaim a treasure guarded by a dragon.",
+             "Published Year": 1937,
+             "Rate": 4.28
+           }
+   ]
+   },
+   {
+      "tag": "Romance",
+      "patterns": [
+        "Romance",
+        "Recommend a Romance book",
+        "Recommend a book in Romance",
+        "Can you suggest another Romance book?"
+      ],
+      "responses": [
+        {
+          "Book": "Pride and Prejudice",
+          "Author": "Jane Austen",
+          "Feedback": "A classic tale of love and misunderstandings set in early 19th-century England, focusing on the spirited Elizabeth Bennet and the proud Mr. Darcy.",
+          "Published Year": 1813,
+          "Rate": 4.26
+        },
+        {
+          "Book": "Outlander",
+          "Author": "Diana Gabaldon",
+          "Feedback": "A gripping blend of romance, historical fiction, and time travel, following the passionate relationship between Claire Randall, a WWII nurse, and Jamie Fraser, a Scottish warrior.",
+          "Published Year": 1991,
+          "Rate": 4.23
+        },
+        {
+          "Book": "Me Before You",
+          "Author": "Jojo Moyes",
+          "Feedback": "A heartwarming and bittersweet story about Louisa Clark, a young woman who becomes a caregiver for a quadriplegic man named Will Traynor, and their unexpected bond.",
+          "Published Year": 2012,
+          "Rate": 4.26
+        },
+        {
+          "Book": "The Notebook",
+          "Author": "Nicholas Sparks",
+          "Feedback": "A poignant love story about Noah and Allie, whose romance spans decades, overcoming obstacles and challenges along the way.",
+          "Published Year": 1996,
+          "Rate": 4.09
+        },
+        {
+          "Book": "Red, White & Royal Blue",
+          "Author": "Casey McQuiston",
+          "Feedback": "A charming and inclusive romance about the First Son of the United States and the Prince of Wales, who fall in love amidst political turmoil.",
+          "Published Year": 2019,
+          "Rate": 4.28
+        }
+]
+},
+{
+   "tag": "Science",
+   "patterns": [
+     "Science",
+     "Recommend a Science book",
+     "Recommend a book in Science",
+     "Can you suggest another Science book?"
+   ],
+   "responses": [
+     {"Image":"https://tse1.mm.bing.net/th?id=OIP.Wdw8knp_mCAsj_Y4hZ4MQwHaLX&pid=Api&P=0&h=220",
+       "Book": "Sapiens: A Brief History of Humankind",
+       "Author": "Yuval Noah Harari",
+       "Feedback": "Explores the history of Homo sapiens, from the emergence of our species to the present day, offering profound insights into human nature and society.",
+       "Published Year": 2014,
+       "Rate": 4.45
+     },
+     {"Image":"http://books.google.com/books/content?id=dpSqvJpLe8oC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+       "Book": "The Elegant Universe",
+       "Author": "Brian Greene",
+       "Feedback": "A fascinating exploration of string theory and the quest for a unified theory of physics, presented in a compelling and accessible manner.",
+       "Published Year": 1999,
+       "Rate": 4.07
+     },
+     {"Image":"https://m.media-amazon.com/images/I/81G4WoQ9t8L._AC_UF1000,1000_QL80_.jpg",
+       "Book": "Astrophysics for People in a Hurry",
+       "Author": "Neil deGrasse Tyson",
+       "Feedback": "An engaging and concise overview of astrophysics, covering topics such as the Big Bang, black holes, and the search for extraterrestrial life.",
+       "Published Year": 2017,
+       "Rate": 4.13
+     },
+     {
+       "Book": "The Gene: An Intimate History",
+       "Author": "Siddhartha Mukherjee",
+       "Feedback": "Explores the history and impact of genetics on human life and society, offering a comprehensive and accessible account of this complex field.",
+       "Published Year": 2016,
+       "Rate": 4.38
+     },
+     {
+       "Book": "The Immortal Life of Henrietta Lacks",
+       "Author": "Rebecca Skloot",
+       "Feedback": "Tells the story of Henrietta Lacks, whose cells were taken without her consent and became instrumental in numerous scientific discoveries, raising important questions about ethics and medical research.",
+       "Published Year": 2010,
+       "Rate": 4.06
+     }
+   ]
+},
+
+
+{
+  "tag": "Children's Books",
+  "patterns": [
+    "8","9","10","11","12","13","14","15",
+    "Recommend a Children's book",
+    "Can you suggest a book for kids?"
+  ],
+  "responses": [
+    {
+      "Book": "Charlotte's Web",
+      "Author": "E.B. White",
+      "Feedback": "A heartwarming tale of friendship between a pig named Wilbur and a spider named Charlotte, filled with important life lessons for children.",
+      "Published Year": 1952,
+      "Rate": 4.16
+    },
+    {"Image":"https://images.gr-assets.com/books/1474154022l/3.jpg",
+      "Book": "Harry Potter and the Sorcerer's Stone",
+      "Author": "J.K. Rowling",
+      "Feedback": "The magical journey of a young wizard named Harry Potter as he discovers his true identity and battles the dark wizard Voldemort.",
+      "Published Year": 1997,
+      "Rate": 4.48
+    },
+    {
+      "Book": "The Lion, the Witch and the Wardrobe",
+      "Author": "C.S. Lewis",
+      "Feedback": "Follow the adventures of four siblings who discover a magical land called Narnia.",
+      "Published Year": 1950,
+      "Rate": 4.20
+    },
+    {
+      "Book": "Matilda",
+      "Author": "Roald Dahl",
+      "Feedback": "Join Matilda, a young girl with extraordinary powers, as she navigates life with her less-than-supportive family and battles the tyrannical headmistress of her school.",
+      "Published Year": 1988,
+      "Rate": 4.30
+    },
+    {
+      "Book": "Where the Wild Things Are",
+      "Author": "Maurice Sendak",
+      "Feedback": "Embark on a wild adventure with Max as he journeys to the land of the Wild Things and becomes their king.",
+      "Published Year": 1963,
+      "Rate": 4.40
+    },
+    {
+      "Book": "Charlie and the Chocolate Factory",
+      "Author": "Roald Dahl",
+      "Feedback": "Explore Willy Wonka's mysterious chocolate factory alongside Charlie Bucket and his fellow golden ticket winners.",
+      "Published Year": 1964,
+      "Rate": 4.45
+    },
+    {
+      "Book": "The Chronicles of Narnia",
+      "Author": "C.S. Lewis",
+      "Feedback": "Dive into the magical world of Narnia with this beloved series featuring epic battles, talking animals, and unforgettable adventures.",
+      "Published Year": 1950,
+      "Rate": 4.50
+    }
+
+
+  ]
+},
+
+{
+  "tag": "Teen Books",
+  "patterns": [
+    "16","17","18",
+    "teen books",
+    "teenagers",
+    "books for teenagers",
+    "recommend a book for teens"
+  ],
+  "responses": [
+    {
+      "Book": "The Hunger Games",
+      "Author": "Suzanne Collins",
+      "Feedback": "Follow Katniss Everdeen as she volunteers to compete in the Hunger Games, a televised event where teenagers fight to the death.",
+      "Published Year": 2008,
+      "Rate": 4.33
+    },
+    {"Image":"https://images.gr-assets.com/books/1356890357l/12970552.jpg",
+      "Book": "The Fault in Our Stars",
+      "Author": "John Green",
+      "Feedback": "Experience the heart-wrenching story of Hazel Grace Lancaster and Augustus Waters as they navigate life and love while dealing with cancer.",
+      "Published Year": 2012,
+      "Rate": 4.24
+    },
+    {"Image":"https://images.gr-assets.com/books/1459551043l/29757622.jpg",
+      "Book": "To Kill a Mockingbird",
+      "Author": "Harper Lee",
+      "Feedback": "Explore the racial injustice and moral growth through the eyes of Scout Finch, a young girl in the 1930s American South.",
+      "Published Year": 1960,
+      "Rate": 4.28
+    },
+    {
+      "Book": "The Catcher in the Rye",
+      "Author": "J.D. Salinger",
+      "Feedback": "Join Holden Caulfield in his journey of self-discovery and teenage rebellion as he navigates through the streets of New York City.",
+      "Published Year": 1951,
+      "Rate": 3.80
+    },
+    {
+      "Book": "The Perks of Being a Wallflower",
+      "Author": "Stephen Chbosky",
+      "Feedback": "Witness the coming-of-age story of Charlie, a shy and introverted teenager, as he navigates through high school and deals with his troubled past.",
+      "Published Year": 1999,
+      "Rate": 4.21
+    }
+  ]
+},
+
+
+{
+  "tag": "Youth Books",
+  "patterns": [
+    "19","20","21","22","23","24","25","26",
+    "youth books",
+    "youths",
+    "books for youths",
+    "recommend a book for youth"
+  ],
+  "responses": [
+    {
+      "Book": "The Giver",
+      "Author": "Lois Lowry",
+      "Feedback": "Enter the dystopian world of Jonas, where everything is controlled and conformity is key, until he discovers the truth and seeks to change the society.",
+      "Published Year": 1993,
+      "Rate": 4.13
+    },
+    {"Image":"https://images.gr-assets.com/books/1327873996l/8306857.jpg",
+      "Book": "Divergent",
+      "Author": "Veronica Roth",
+      "Feedback": "Join Beatrice Prior as she faces the challenges of living in a society divided into factions based on personality traits and fights against a corrupt system.",
+      "Published Year": 2011,
+      "Rate": 4.21
+    },
+    {"Image":"https://images.gr-assets.com/books/1327873996l/8306857.jpg",
+      "Book": "The Maze Runner",
+      "Author": "James Dashner",
+      "Feedback": "Follow Thomas as he wakes up in the Glade with no memory, surrounded by a group of boys, and must navigate through a deadly maze to escape.",
+      "Published Year": 2009,
+      "Rate": 4.02
+    },
+  
+    {"Image":"https://images.gr-assets.com/books/1442129426l/231804.jpg",
+      "Book": "The Outsiders",
+      "Author": "S.E. Hinton",
+      "Feedback": "Experience the conflict between two rival groups, the Greasers and the Socs, through the eyes of Ponyboy Curtis, as he struggles with loyalty, identity, and class issues.",
+      "Published Year": 1967,
+      "Rate": 4.08
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   ]
+}
+
+
+      
+      
+
+
+
+      
+   
+
